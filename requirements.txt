@@ -1,25 +1,24 @@
-# libs principales
+pip>=23.0
+setuptools>=65
+wheel
+
 streamlit==1.30.0
-pillow==10.0.0
-onnxruntime==1.20.1
-rembg==2.0.61
-
-# Core
-
 fastapi==0.97.0
 uvicorn==0.22.0
 
-# Data
-pandas==2.2.3
 numpy==1.26.4
 scipy==1.11.4
+pandas==2.2.3
 matplotlib==3.8.2
 seaborn==0.12.2
 plotly==5.20.0
 statsmodels==0.14.0
+scikit-image==0.24.0
 
-# Extras
-requests==2.31.0
+onnxruntime==1.20.1
+rembg==2.0.61
+
 sqlalchemy==2.0.20
+requests==2.31.0
+pillow==10.0.0
 
-statsmodels==0.14.0
